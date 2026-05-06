@@ -13,6 +13,7 @@ import perfume from '../assets/perfume.png'
 import lomp from '../assets/lomp.png'
 import medi from '../assets/medi.png'
 import wear from '../assets/wear.png'
+import cafe from '../assets/cafe.png'
 
 
 
@@ -33,6 +34,13 @@ const projects = [
     tech: [['Vite ','tc-yellow'],['React ','tc-cyan'],['Tailwind CSS ','tc-green'],['Typescript ','bg-blue']],
     github: 'https://github.com/mahmoudrabea321/lighting-store',
     live: 'https://lighting-store.pages.dev/',
+  },{
+    title: 'Cafe Shop', featured: true,
+    img: cafe,
+    desc: 'A high-converting, fully responsive web application for a boutique coffee shop. Designed to maximize walk-ins and online orders, it features a dynamic categorized menu, an interactive shopping cart, behavioral marketing triggers (like an exit-intent discount modal), and an integrated admin dashboard for managing product inventory via local storage.',
+    tech: [['Typescript ','bg-blue'],['Vite ','tc-yellow'],['React','tc-cyan'],['Tailwind CSS ','tc-green']],
+    github: 'https://github.com/mahmoudrabea321/cafe',
+    live: 'https://cafe-and-drink.pages.dev/',
   },
   {
     title: 'FurniStore', featured: true,

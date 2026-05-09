@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react'
 
-// Put your screenshot files inside src/assets/ then import them here
 import estoreImg from '../assets/estore.png'
 import burgerImg from '../assets/Burger.png'
 import zeliaImg from '../assets/project1.png'
@@ -58,13 +57,20 @@ const projects = [
     tech: [['Firebase ','tc-green'],['Vite ','tc-yellow'],['HTML-CSS-JavaScript','tc-cyan'],['Tailwind CSS ','tc-green']],
     github: 'https://github.com/mahmoudrabea321/almadena',
     live: 'https://almadena-en.pages.dev/',
-  },{
-    title: 'Crave Burger', featured: true,
-    img: crave,
-    desc: 'Crave Burger is a modern, sophisticated single-page web application (SPA) built for a premium fast-food/burger restaurant. The application features a sleek dark-mode aesthetic with fluid animations, intuitive navigation, and a complete WhatsApp-based checkout flow.',
-    github: 'https://github.com/mahmoudrabea321/crave-burger/',
-    live: 'https://crave-burger.pages.dev/',
-  },
+      },{
+      title: 'Crave Burger',
+      featured: true,
+      img: crave,
+      desc: 'Crave Burger is a modern...',
+      tech: [
+        ['Vite','tc-yellow'],
+        ['React','tc-cyan'],
+        ['Tailwind CSS','tc-green'],
+        ['TypeScript','bg-blue']
+      ],
+      github: 'https://github.com/mahmoudrabea321/crave-burger/',
+      live: 'https://crave-burger.pages.dev/',
+    },
    {
     title: 'Aura Minimal Chic', featured: true,
     img: wear,

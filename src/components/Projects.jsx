@@ -14,6 +14,7 @@ import lomp from '../assets/lomp.png'
 import medi from '../assets/medi.png'
 import wear from '../assets/wear.png'
 import cafe from '../assets/cafe.png'
+import mid from '../assets/mid.png'
 
 
 
@@ -41,6 +42,13 @@ const projects = [
     tech: [['Typescript ','bg-blue'],['Vite ','tc-yellow'],['React','tc-cyan'],['Tailwind CSS ','tc-green']],
     github: 'https://github.com/mahmoudrabea321/cafe',
     live: 'https://cafe-and-drink.pages.dev/',
+  },{
+    title: 'MidResturant', featured: true,
+    img: mid,
+    desc: 'A premium, modern, mobile-first high-converting restaurant website designed specifically for Egyptian and Arabic customers. It features a luxurious aesthetic, fast performance, and an elegant dark theme.',
+    tech: [['Typescript ','bg-blue'],['Vite ','tc-yellow'],['React','tc-cyan'],['Tailwind CSS ','tc-green']],
+    github: 'https://github.com/mahmoudrabea321/resturant-middle',
+    live: 'https://resturant-middle.pages.dev/',
   },
   {
     title: 'FurniStore', featured: true,

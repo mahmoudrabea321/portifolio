@@ -15,6 +15,7 @@ import medi from '../assets/medi.png'
 import wear from '../assets/wear.png'
 import cafe from '../assets/cafe.png'
 import crave from '../assets/crave.png'
+import mid from '../assets/mid.png'
 
 
 

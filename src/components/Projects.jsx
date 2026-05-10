@@ -15,6 +15,7 @@ import wear from '../assets/wear.png'
 import cafe from '../assets/cafe.png'
 import crave from '../assets/crave.png'
 import mid from '../assets/mid.png'
+import ss from '../assets/ss.png'
 
 
 
@@ -49,8 +50,7 @@ const projects = [
     tech: [['Typescript ','bg-blue'],['Vite ','tc-yellow'],['React','tc-cyan'],['Tailwind CSS ','tc-green']],
     github: 'https://github.com/mahmoudrabea321/resturant-middle',
     live: 'https://resturant-middle.pages.dev/',
-  },
-  {
+  },{
     title: 'FurniStore', featured: true,
     img: fernistore,
     desc: 'High-performance Single Page Application (SPA) for a premium modern furniture store. Designed with an elegant, responsive UI and developed entirely from scratch using clean, modular Vanilla JavaScript.',
@@ -70,8 +70,14 @@ const projects = [
       ],
       github: 'https://github.com/mahmoudrabea321/crave-burger/',
       live: 'https://crave-burger.pages.dev/',
-    },
-   {
+    },{
+    title: 'Arabella', featured: true,
+    img: ss,
+    desc: 'Arabella is a high-end, Arabic-first (RTL) furniture catalog website specifically designed for Egyptian and Gulf customers. It moves away from cluttered, outdated e-commerce templates and embraces a modern luxury aesthetic combined with aggressive-yet-elegant WhatsApp conversion strategies.',
+    tech: [['Firebase ','tc-green'],['Vite ','tc-yellow'],['HTML-CSS-JavaScript','tc-cyan'],['Tailwind CSS ','tc-green']],
+    github: 'https://github.com/mahmoudrabea321/arbelia',
+    live: 'https://arbelia.pages.dev/',
+      },{
     title: 'Aura Minimal Chic', featured: true,
     img: wear,
     desc: 'Aura Minimal Chic is a modern, high-performance web application tailored for a premium online e-commerce experience. It features an elegant minimal UI design with seamless transitions, interactive shopping cart capabilities, and a fully responsive layout that provides a premium shopping experience across all devices.',
